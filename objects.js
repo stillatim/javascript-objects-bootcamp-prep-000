@@ -7,6 +7,10 @@ var playlist = {
     return playlist
   }
   
+  
+var playlist = {
+  fugazi: "repeater"
+}
   function removeFromPlaylist(playlist, artistName) {
     delete playlist.artistName; 
     return playlist; 
