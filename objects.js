@@ -9,6 +9,6 @@ var playlist = {
   
   function removeFromPlaylist(playlist, a) {
     delete playlist.a; 
-    console.log playlist 
+    return playlist 
       }
   
