@@ -1,6 +1,5 @@
 var playlist = {
-  fugazi: "repeater",
-  slowdive: "orange"
+  fugazi: "repeater"
   }
   
   function updatePlaylist(playlist, a, b) {
@@ -8,14 +7,8 @@ var playlist = {
     return playlist
   }
   
-  
-var playlist = {
-  fugazi: "repeater",
-  slowdive: "orange"
-}
-
-  function removeFromPlaylist(playlist, artistName) {
-    delete playlist.artistName; 
+  function removeFromPlaylist(playlist, a) {
+    delete playlist.a; 
     return playlist
   }
   
