@@ -8,7 +8,6 @@ var playlist = {
   }
   
   function removeFromPlaylist(playlist, a) {
-    delete playlist.a; 
-    return playlist
-  }
+    return delete playlist.a; 
+      }
   
